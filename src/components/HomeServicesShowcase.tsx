@@ -18,7 +18,6 @@ import {
   CheckCircle2,
   ChevronLeft,
   ChevronRight,
-  Sparkles,
 } from "lucide-react";
 
 interface MasterpieceService {
@@ -303,27 +302,6 @@ export default function HomeServicesShowcase() {
                     <div style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
                       <span
                         style={{
-                          backgroundColor: "rgba(8, 21, 33, 0.85)",
-                          backdropFilter: "blur(12px)",
-                          border: "1px solid rgba(199, 166, 120, 0.4)",
-                          color: "var(--color-champagne)",
-                          fontSize: "0.72rem",
-                          fontWeight: 700,
-                          textTransform: "uppercase",
-                          letterSpacing: "0.1em",
-                          padding: "0.35rem 0.85rem",
-                          borderRadius: "20px",
-                          display: "inline-flex",
-                          alignItems: "center",
-                          gap: "0.4rem",
-                        }}
-                      >
-                        <Sparkles size={13} />
-                        <span>Vertical {service.index} • {service.badge}</span>
-                      </span>
-
-                      <span
-                        style={{
                           backgroundColor: "rgba(255, 255, 255, 0.12)",
                           backdropFilter: "blur(12px)",
                           border: "1px solid rgba(255, 255, 255, 0.15)",
@@ -333,7 +311,6 @@ export default function HomeServicesShowcase() {
                           padding: "0.35rem 0.8rem",
                           borderRadius: "20px",
                         }}
-                        className="hidden-mobile"
                       >
                         {service.fleetTag}
                       </span>
@@ -633,22 +610,7 @@ export default function HomeServicesShowcase() {
                   "linear-gradient(180deg, rgba(8, 21, 33, 0.2) 0%, rgba(8, 21, 33, 0.95) 100%)",
               }}
             />
-            <div
-              style={{
-                position: "absolute",
-                top: "1rem",
-                left: "1rem",
-                backgroundColor: "rgba(8, 21, 33, 0.85)",
-                padding: "0.3rem 0.75rem",
-                borderRadius: "20px",
-                border: "1px solid rgba(199, 166, 120, 0.35)",
-                fontSize: "0.72rem",
-                color: "var(--color-champagne)",
-                fontWeight: 700,
-              }}
-            >
-              {activeService.badge}
-            </div>
+
           </div>
 
           {/* Mobile Content */}
