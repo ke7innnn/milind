@@ -5,8 +5,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import ServicesSection from "@/components/ServicesSection";
 import Link from "next/link";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
-import { CORE_SERVICES } from "@/data/content";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Corporate Transportation Services | Milind Travels Private Limited",

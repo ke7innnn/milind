@@ -6,8 +6,7 @@ import AboutHeritageSection from "@/components/AboutHeritageSection";
 import InteractiveHeritageTimeline from "@/components/InteractiveHeritageTimeline";
 import HomeIntroDirectorsSection from "@/components/HomeIntroDirectorsSection";
 import Link from "next/link";
-import { Award, CheckCircle2, ArrowRight } from "lucide-react";
-import { COMPANY_HERITAGE, CONTACT_INFO, SITE_METADATA } from "@/data/content";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About Us & Board of Directors | Milind Travels Private Limited",

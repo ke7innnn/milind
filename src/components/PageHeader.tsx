@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 
 interface PageHeaderProps {
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   subtitle: string;
   breadcrumbs?: { label: string; href?: string }[];
@@ -85,6 +85,22 @@ export default function PageHeader({
           <ChevronRight size={13} style={{ opacity: 0.6 }} />
           <span style={{ color: "#FFFFFF", fontWeight: 600 }}>{title}</span>
         </nav>
+
+        {/* Eyebrow */}
+        {eyebrow && (
+          <div
+            style={{
+              fontSize: "0.78rem",
+              fontWeight: 700,
+              textTransform: "uppercase",
+              letterSpacing: "0.14em",
+              color: "var(--color-champagne)",
+              marginBottom: "0.5rem",
+            }}
+          >
+            {eyebrow}
+          </div>
+        )}
 
         {/* Title */}
         <h1

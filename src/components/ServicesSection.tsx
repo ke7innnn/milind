@@ -3,25 +3,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { CORE_SERVICES, ServiceItem, CONTACT_INFO } from "@/data/content";
+import { CORE_SERVICES } from "@/data/content";
 import {
   BusFront,
   CarFront,
   Plane,
   Briefcase,
-  Users,
-  ShieldCheck,
-  Crown,
-  PlaneTakeoff,
-  CalendarRange,
   CheckCircle2,
   ArrowRight,
-  ArrowUpRight,
-  Car,
-  MapPin,
-  Sparkles,
   Shield,
-  Clock,
 } from "lucide-react";
 
 // Curated high-resolution fleet photography matching each enterprise service

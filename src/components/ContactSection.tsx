@@ -3,14 +3,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import {
-  Phone,
   Mail,
   MapPin,
   Send,
   CheckCircle2,
-  Clock,
-  ArrowUpRight,
-  ShieldCheck,
 } from "lucide-react";
 import { CONTACT_INFO } from "@/data/content";
 

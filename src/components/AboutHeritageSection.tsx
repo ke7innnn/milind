@@ -11,12 +11,9 @@ import {
   FileText,
   CheckCircle2,
   X,
-  Briefcase,
-  User,
   Phone,
   Mail,
   ArrowRight,
-  ShieldCheck,
   Send,
   Building2,
 } from "lucide-react";

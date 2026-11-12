@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import FleetShowcaseSection from "@/components/FleetShowcaseSection";
 import Link from "next/link";
-import { ArrowRight, Check, ShieldCheck, Wrench } from "lucide-react";
+import { ShieldCheck, Wrench } from "lucide-react";
 import { FLEET_TIERS } from "@/data/content";
 
 export const metadata: Metadata = {

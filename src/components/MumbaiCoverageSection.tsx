@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { MUMBAI_CORRIDORS, CONTACT_INFO } from "@/data/content";
-import { MapPin, Building2, Check, ArrowRight } from "lucide-react";
+import { MapPin, Building2, ArrowRight } from "lucide-react";
 
 export default function MumbaiCoverageSection() {
   const [activeCorridorId, setActiveCorridorId] = useState<string>(MUMBAI_CORRIDORS[0].id);

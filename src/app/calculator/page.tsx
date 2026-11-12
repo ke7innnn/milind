@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import InteractiveProposalCalculator from "@/components/InteractiveProposalCalculator";
-import { CheckCircle2, Clock, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Corporate Mobility RFP & Route Calculator | Milind Travels Private Limited",

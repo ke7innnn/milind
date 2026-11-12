@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import MumbaiCoverageSection from "@/components/MumbaiCoverageSection";
 import Link from "next/link";
-import { Navigation, MapPin, ArrowRight } from "lucide-react";
-import { MUMBAI_CORRIDORS, CONTACT_INFO } from "@/data/content";
+import { MapPin, ArrowRight } from "lucide-react";
+import { MUMBAI_CORRIDORS } from "@/data/content";
 
 export const metadata: Metadata = {
   title: "Mumbai & MMR Corporate Corridors | Milind Travels Private Limited",

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { CheckCircle2, XCircle, ArrowRight, ShieldCheck, Clock, Users } from "lucide-react";
+import { CheckCircle2, XCircle, ArrowRight } from "lucide-react";
 
 export default function StrategicDifferenceSection() {
   const comparisons = [

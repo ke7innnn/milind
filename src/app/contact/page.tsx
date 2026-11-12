@@ -4,8 +4,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import ContactSection from "@/components/ContactSection";
-import { Phone, Mail, Clock, ShieldCheck } from "lucide-react";
-import { CONTACT_INFO } from "@/data/content";
 
 export const metadata: Metadata = {
   title: "Contact Headquarters & Operations Desk | Milind Travels Private Limited",

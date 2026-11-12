@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import ClientTrustSection from "@/components/ClientTrustSection";
 import Link from "next/link";
-import { ShieldCheck, ArrowRight, Laptop, Briefcase, Landmark, Stethoscope } from "lucide-react";
+import { ArrowRight, Laptop, Briefcase, Landmark, Stethoscope } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Enterprise Client Portfolio & Sectors | Milind Travels Private Limited",

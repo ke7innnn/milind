@@ -4,12 +4,8 @@ import React, { useState } from "react";
 import {
   Send,
   CheckCircle2,
-  Building,
   Car,
-  Clock,
   MapPin,
-  ArrowRight,
-  ShieldAlert,
   Users,
 } from "lucide-react";
 import { CONTACT_INFO, MUMBAI_CORRIDORS } from "@/data/content";

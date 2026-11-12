@@ -4,8 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import OperationalFrameworkSection from "@/components/OperationalFrameworkSection";
-import Link from "next/link";
-import { ShieldCheck, UserCheck, Wrench, PhoneCall, ArrowRight, CheckCircle2 } from "lucide-react";
+import { ShieldCheck, UserCheck, CheckCircle2 } from "lucide-react";
 import { CONTACT_INFO } from "@/data/content";
 
 export const metadata: Metadata = {

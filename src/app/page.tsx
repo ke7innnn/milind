@@ -11,38 +11,12 @@ import Image from "next/image";
 import {
   ArrowRight,
   ArrowUpRight,
-  ShieldCheck,
-  BusFront,
-  CarFront,
-  Plane,
-  Users,
-  Car,
-  MapPin,
-  Clock,
-  Briefcase,
-  Building2,
   ChevronRight,
   CheckCircle2,
-  CalendarRange,
-  Crown,
-  PlaneTakeoff,
 } from "lucide-react";
-import { CORE_SERVICES, FLEET_TIERS, HISTORICAL_CLIENTS, CONTACT_INFO, SITE_METADATA } from "@/data/content";
+import { FLEET_TIERS, HISTORICAL_CLIENTS } from "@/data/content";
 
 export default function HomePage() {
-  const getServiceIcon = (id: string) => {
-    switch (id) {
-      case "staff-transportation":
-        return <BusFront size={20} strokeWidth={2.1} style={{ color: "var(--color-midnight-navy)" }} />;
-      case "ad-hoc-duty":
-        return <CarFront size={20} strokeWidth={2.1} style={{ color: "var(--color-midnight-navy)" }} />;
-      case "airport-transfers":
-        return <Plane size={20} strokeWidth={2.1} style={{ color: "var(--color-midnight-navy)" }} />;
-      case "custom-packages":
-      default:
-        return <Briefcase size={20} strokeWidth={2.1} style={{ color: "var(--color-midnight-navy)" }} />;
-    }
-  };
 
   return (
     <main

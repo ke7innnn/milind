@@ -5,18 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
-  ShieldCheck,
-  Building2,
-  Clock,
-  MapPin,
-  Award,
-  Sparkles,
   ChevronRight,
-  CheckCircle2,
   Phone,
   Mail,
 } from "lucide-react";
-import { DIRECTORS, SITE_METADATA, CONTACT_INFO } from "@/data/content";
+import { SITE_METADATA, CONTACT_INFO } from "@/data/content";
 
 export default function HomeIntroDirectorsSection() {
   return (
@@ -111,7 +104,7 @@ export default function HomeIntroDirectorsSection() {
               fontWeight: 400,
             }}
           >
-            Established in April 2000 as a proprietorship firm with just one vehicle providing cab services to call centres and BPO companies, Milind Travels has steadily expanded over 24+ years. In August 2025, the business transitioned into <strong>{SITE_METADATA.legalName}</strong> (CIN: {SITE_METADATA.cin}). Today, we operate a diverse fleet comprising <strong>80+ owned vehicles and approximately 500 attached vehicles</strong> (hatchbacks, sedans, SUVs, and premium vehicles), backed by dedicated supervisors on each client site to monitor and live track across Mumbai's Western, Eastern, and Harbour Zones.
+            Established in April 2000 as a proprietorship firm with just one vehicle providing cab services to call centres and BPO companies, Milind Travels has steadily expanded over 24+ years. In August 2025, the business transitioned into <strong>{SITE_METADATA.legalName}</strong> (CIN: {SITE_METADATA.cin}). Today, we operate a diverse fleet comprising <strong>80+ owned vehicles and approximately 500 attached vehicles</strong> (hatchbacks, sedans, SUVs, and premium vehicles), backed by dedicated supervisors on each client site to monitor and live track across Mumbai&apos;s Western, Eastern, and Harbour Zones.
           </p>
         </div>
 
